@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 25px;
+}
+h1{
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+form{
+  width:40%;
+}
+input{
+  height:2rem;
+  font-size: 1.3rem;
+  text-align: center;
+  width:100%;
+}
+button{
+  font-size: 1.3rem;
+  padding:0.5rem 1rem 0.5rem 1rem;
+  border-radius: 10px;
+  outline: none;
+}
+button:hover{
+  border: 3px solid crimson;
+}
+.btnContainer{
+  display: flex;
+  gap: 15px;
+}
+#photo{
+  height:50vh;
+  width: 65%;
+}
+.hide{
+  display: none;
+}
