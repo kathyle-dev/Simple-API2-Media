@@ -21,7 +21,7 @@ let media = {
             }, 165)
       })
         .catch(err => alert("Out of photos! Try another search."))
-        // media.getRandom()
+      
   },
   getVideo(){
       let input = media.input.value.replace(" ","+");
@@ -36,18 +36,8 @@ let media = {
             }, 165)
           })
             .catch(err => alert("Out of videos! Try another search."))
-            // media.getRandom()
-        },
-    // getRandom(){
-    //   let input = media.input.value.replace(" ","+");
-    //   fetch(`http://openlibrary.org/subjects/${input}.json?details=true?limit=1`)
-    //     .then(response => response.json())
-    //     .then(data => {
-    //       media.book.innerHTML =`BOOK: ${data.works[media.count].title}, AUTHOR: ${data.works[media.count].authors[0].name}`
-    //       media.book.classList.remove("hide")
-    //     })
-    //     .catch(err => alert("Out of books! Try another search."))
-    // }
+
+        }
 }
 
 media.btnVideo.addEventListener("click", media.getVideo);

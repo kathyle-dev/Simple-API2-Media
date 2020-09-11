@@ -2,41 +2,51 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://upload.wikimedia.org/wikipedia/commons/4/4b/Long_Room_Interior%2C_Trinity_College_Dublin%2C_Ireland_-_Diliff.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Cormorant Garamond', serif;
+}
 .container{
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
   gap: 25px;
 }
 h1{
-  margin-top: 2rem;
-  font-size: 3rem;
+  margin-top: 1.5rem;
+  font-size: 3.5rem;
+  color: white;
 }
 form{
   width:40%;
 }
 input{
-  height:2rem;
-  font-size: 1.3rem;
+  height:2.1rem;
+  font-size: 1.75rem;
   text-align: center;
+  font-style: italic;
   width:100%;
 }
 button{
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   padding:0.5rem 1rem 0.5rem 1rem;
   border-radius: 10px;
   outline: none;
+  background-color: #d7be82;
+  border: 3px solid gold;
 }
 button:hover{
-  border: 3px solid crimson;
+  background-color: crimson;
 }
 .btnContainer{
   display: flex;
   gap: 15px;
 }
-#photo{
+#photo, iframe{
   height:50vh;
   width: 65%;
 }
